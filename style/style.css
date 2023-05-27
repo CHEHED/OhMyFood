@@ -324,6 +324,7 @@ align-items: center;
         width: 111%;
         border-top-right-radius: 15px;
         border-top-left-radius:15px ;
+        object-fit: cover;
 
         }    
 
@@ -494,7 +495,7 @@ flex-direction: row;
 align-items: center;
 justify-content:initial;
 margin-left: 19%;
-padding-right: 20%;
+padding-right: 22%;
 gap:50px}
 
 
