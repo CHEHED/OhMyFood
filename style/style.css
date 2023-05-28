@@ -443,6 +443,9 @@ padding-right: 4px;}
 
     @media only screen and (min-width : 1224px) {
 
+        .numero-1 {
+           width: 38px;   
+        }
 
         .box-1 i {
             left: 30px;
