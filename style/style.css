@@ -13,15 +13,14 @@ inset:0;
 z-index: 100;
 opacity: 0.9 ;
 animation: disappear 2s 2s forwards;
-
-
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
 
 
 .loader::after { 
-position: absolute; 
-top: 50%; 
-left: 50%; 
 content: "";
 height: 100px;
 width: 100px;
@@ -32,9 +31,7 @@ animation: load 1s infinite linear;
 
 }
 
-.loader img { position: absolute; 
-    top: 60%; 
-    left: 48%; 
+.loader img { 
 width: 150px; }
 
 
@@ -74,7 +71,7 @@ margin: auto;
     background-color: #fff;
     padding: 15px 25px 10px;
     height: 44px;
-width: 260px;
+width: 162px;
 left: 16px;
 margin-bottom: 10px;
 margin-top: 10px;
@@ -267,7 +264,14 @@ line-height: 28px;
         margin-left: 5px;
         background: #F6F6F6;
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
-        height: 30px; }
+        height: 30px; 
+        position: relative;
+    }
+
+    .box-1 i {
+        position: absolute;
+        left: 40px;
+    }
 
 
   
@@ -297,7 +301,9 @@ line-height: 28px;
 
 }
 
-.box-1 span { padding-left: 15%;}
+.box-1 span { padding-left: 6%;
+    width: 100%;text-align: center;
+}
 
 
 
@@ -324,7 +330,6 @@ align-items: center;
         width: 111%;
         border-top-right-radius: 15px;
         border-top-left-radius:15px ;
-        object-fit: cover;
 
         }    
 
@@ -416,7 +421,7 @@ footer {
     
     filter: invert(1);
     height: 27px;
-width: 165px;
+width: 100px;
 
 
      } 
@@ -439,11 +444,19 @@ padding-right: 4px;}
     @media only screen and (min-width : 1224px) {
 
 
+        .box-1 i {
+            left: 30px;
+        }
+        .box-1 span {
+            padding-left: 15%;
+        }
+
+
 /*header*/
 
 
 .logo-ohmyfood img {height: 54px;
-    width: 320px;
+    width: 200px;
 
      }
 
@@ -495,7 +508,7 @@ flex-direction: row;
 align-items: center;
 justify-content:initial;
 margin-left: 19%;
-padding-right: 22%;
+padding-right: 20%;
 gap:50px}
 
 
@@ -515,10 +528,11 @@ margin-left: 36.51px;}
 
 
 
-.conteneur-box-2 {display: grid;
+.conteneur-box-2 {
+    display: grid;
     grid-template-columns: 30% 30%;
     gap: 51px;
-justify-content: center;
+    justify-content: center;
 }
 
 
@@ -529,7 +543,7 @@ justify-content: center;
 
 .box-4 { height: 251px;
     width: 86%;
-
+    margin-left: 5%;
     }
 
 
