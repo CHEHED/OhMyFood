@@ -210,14 +210,14 @@ i.icon-solid:hover, i.icon-solid:focus, i.icon-solid:active {
 .check {
     width: 60px;
     background-color: #99E2D0;
-    height: 69px;
+    height: 75px;
     border-radius: 0px 15px 15px 0px;
     display: flex;
     align-items: center;
     font-size: 31px;
     padding-left: 15px;
     box-sizing: border-box;
-    margin-top: -3.91rem;
+    margin-top: -4.1rem;
 }
 
 
