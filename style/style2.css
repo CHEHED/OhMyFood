@@ -511,14 +511,17 @@ a {
 }
 
 .plat .infos .titre {
-    overflow-wrap: anywhere;
-    word-break: break-all;
     margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .plat .infos .description {
-    word-wrap: break-word;
     margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .plat .plat-prix {
